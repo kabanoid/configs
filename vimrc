@@ -123,6 +123,7 @@ inoremap <S-tab> <c-r>=InsertTabWrapper()<cr>
 nmap <leader>rci :%!ruby-code-indenter<cr>
 
 map <F2> :w<CR>
+map <F3> :NERDTreeToggle<CR>
 map <F4> ZZ
 map <F5> :execute LineNums()<CR>
 map <F6> :set filetype=perl<CR>
@@ -139,3 +140,5 @@ imap <F10> <ESC>:q!<CR>
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+
+execute pathogen#infect()
