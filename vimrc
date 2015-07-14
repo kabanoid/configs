@@ -122,6 +122,7 @@ inoremap <S-tab> <c-r>=InsertTabWrapper()<cr>
 " Code indenter
 nmap <leader>rci :%!ruby-code-indenter<cr>
 
+map <F1> :!perldoc %<CR>
 map <F2> :w<CR>
 map <F3> :NERDTreeToggle<CR>
 map <F4> ZZ
