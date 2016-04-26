@@ -132,6 +132,7 @@ map <F7> :set filetype=html<CR>
 map <F8> :set filetype=sql<CR>
 map <F9> :!perl -cW %<CR>
 map <F10> :q!<CR>
+map <F12> :! git blame %<CR>
 imap <F2> <ESC>:w<CR>
 imap <F10> <ESC>:q!<CR>
 " }}} Key mapping
