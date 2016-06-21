@@ -122,7 +122,7 @@ inoremap <S-tab> <c-r>=InsertTabWrapper()<cr>
 " Code indenter
 nmap <leader>rci :%!ruby-code-indenter<cr>
 
-map <F1> :!perldoc %<CR>
+map <F1> :! clear && perldoc %<CR><CR>
 map <F2> :w<CR>
 map <F3> :NERDTreeToggle<CR>
 map <F4> ZZ
@@ -132,7 +132,7 @@ map <F7> :set filetype=html<CR>
 map <F8> :set filetype=sql<CR>
 map <F9> :!perl -cW %<CR>
 map <F10> :q!<CR>
-map <F12> :! git blame %<CR>
+map <F12> :! clear && git blame %<CR><CR>
 imap <F2> <ESC>:w<CR>
 imap <F10> <ESC>:q!<CR>
 " }}} Key mapping
