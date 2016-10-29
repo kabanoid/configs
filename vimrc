@@ -78,6 +78,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set splitbelow
+set splitright
+
 " set foldmethod=marker
 set formatoptions=qroct
 " set mouse=a
