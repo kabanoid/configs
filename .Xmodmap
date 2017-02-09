@@ -1,0 +1,6 @@
+! Disable buttons 8 and 9 (back/forward)
+pointer = 1 2 3 4 5 6 7 0 0
+
+! Disable PgUp/PgDn buttons
+keycode 112 = NoSymbol
+keycode 117 = NoSymbol
