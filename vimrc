@@ -120,6 +120,10 @@ function LineNums()
 endfunction
 "}}} Function LineNums
 
+" force the detection of filetype by it's extension
+autocmd BufNewFile,BufRead  *.t setfiletype perl
+autocmd BufNewFile,BufRead  *.tt setfiletype html
+
 " {{{ Key mapping
 inoremap <S-tab> <c-r>=InsertTabWrapper()<cr>
 " Code indenter
