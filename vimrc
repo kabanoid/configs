@@ -152,3 +152,7 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 execute pathogen#infect()
+
+au FileType perl
+    \ setlocal foldexpr=getline(v:lnum)=~'^=cut'?'<1':getline(v:lnum)=~'^='?'1':'=' |
+    \ setlocal foldmethod=expr
