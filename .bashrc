@@ -119,3 +119,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export LC_ALL="en_US.UTF-8"
+export VISUAL=vim
+export EDITOR="$VISUAL"
