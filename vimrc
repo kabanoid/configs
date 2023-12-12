@@ -143,6 +143,8 @@ map <F10> :q!<CR>
 map <F12> :! clear && git blame %<CR>
 imap <F2> <ESC>:w<CR>
 imap <F10> <ESC>:q!<CR>
+
+map ~ :bel term<CR>
 " }}} Key mapping
 
 
